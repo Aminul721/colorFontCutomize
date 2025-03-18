@@ -1,0 +1,28 @@
+.section-faq-item {
+    cursor: pointer;
+    & + .section-faq-item {
+        margin-top: 2rem;
+    }
+}
+.section-faq-title {
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        right: 30px;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        line-height: 1;
+        background-image: url('../images/plus-icon.png');
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center center;
+    }
+}
+.active {
+    .section-faq-title { &::after { background-image: url('../images/min-icon.png'); } }
+}
+.section-faq-content { display: none; }

@@ -1,0 +1,10 @@
+// feature css
+.feature-box {
+    --icon-box-size: 60px;
+}
+.feature-icon {
+    width: var(--icon-box-size);
+    min-width: var(--icon-box-size);
+    height: var(--icon-box-size);
+    border: 1px solid rgba(var(--#{$prefix}primary-rgb), 0.1);
+}

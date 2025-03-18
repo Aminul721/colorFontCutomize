@@ -1,0 +1,6 @@
+// footer-container css
+.footer-menu-list {
+    li {
+        & + li { margin-top: 0.8rem; }
+    }
+}

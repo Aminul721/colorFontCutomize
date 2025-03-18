@@ -1,0 +1,14 @@
+
+//---------Form css---------
+.form-style {
+    --#{$prefix}form-border-color: var(--#{$prefix}border-color);
+    --#{$prefix}form-input-padding-y: 0.95rem;
+    --#{$prefix}form-input-padding-x: 0.75rem;
+    --#{$prefix}border-radius: var(--#{$prefix}border-radius-lg);
+    --#{$prefix}input-focus-box-shadow: none;
+    // --#{$prefix}input-focus-box-shadow: ;
+}
+.form-control {
+    padding: var(--#{$prefix}form-input-padding-y) var(--#{$prefix}form-input-padding-x);
+    &:is(:focus, :focus-visible, :active) { box-shadow: var(--#{$prefix}input-focus-box-shadow); }
+}

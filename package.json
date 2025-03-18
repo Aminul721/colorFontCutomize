@@ -1,0 +1,36 @@
+{
+  "name": "wallpi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ashikur11/HTML-Quick-Start-Pack.git",
+  "author": "ashikur11 <ashik365@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "yarn husky install",
+    "dev": "gulp",
+    "bundle": "gulp makeBundle",
+    "build": "gulp build"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "dir-archiver": "^1.1.2",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-string-replace": "^1.1.2",
+    "gulp-zip": "^5.0.2",
+    "merge-stream": "^2.0.0",
+    "sass": "^1.64.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.0",
+    "@commitlint/config-conventional": "^17.4.0",
+    "gulp-rtlcss": "^2.0.0",
+    "husky": "^8.0.3"
+  }
+}

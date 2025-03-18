@@ -1,0 +1,15 @@
+// header css
+.top-header-bg {
+    background-image: url('../images/topbar-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    opacity: 0.45;
+}
+.navbar {
+    --#{$prefix}navbar-color: var(--#{$prefix}body-color);
+    --#{$prefix}navbar-hover-color: var(--#{$prefix}primary);
+    --#{$prefix}navbar-active-color: var(--#{$prefix}primary);
+    --#{$prefix}navbar-brand-font-size: 1.3rem;
+}
+.mobile-offcanvas { --#{$prefix}offcanvas-width: 340px; }

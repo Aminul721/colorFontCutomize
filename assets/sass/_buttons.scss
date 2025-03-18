@@ -1,0 +1,66 @@
+.btn {
+    --#{$prefix}btn-padding-x: 1.35rem;
+    --#{$prefix}btn-padding-y: 0.8rem;
+    --#{$prefix}btn-font-family: var(--#{$prefix}font-family-base);
+    -#{$prefix}btn-font-size: 1.4rem;
+    --#{$prefix}btn-font-weight: 500;
+    --#{$prefix}btn-color: #fff;
+    --#{$prefix}btn-border-color: var(--#{$prefix}border-color);
+    --#{$prefix}btn-border-radius: calc(var(--#{$prefix}border-radius-pill) * 2);
+    --#{$prefix}btn-bg: var(--#{$prefix}primary);
+    --#{$prefix}btn-hover-border-color: transparent;
+}
+.btn-primary {
+    --#{$prefix}btn-color: #fff;
+    --#{$prefix}btn-hover-color: var(--#{$prefix}primary);
+    --#{$prefix}btn-hover-bg: transparent;
+    --#{$prefix}btn-hover-border-color: var(--#{$prefix}primary);
+}
+.btn-secondary {
+    --#{$prefix}btn-color: var(--#{$prefix}body-color);
+    --#{$prefix}btn-border-radius: calc(var(--#{$prefix}border-radius-pill) * 2);
+    --#{$prefix}btn-bg: transparent;
+    --#{$prefix}btn-hover-color: #fff;
+    --#{$prefix}btn-hover-bg: var(--#{$prefix}primary);
+    &:hover {
+        .back-arrow { color: var(--#{$prefix}btn-hover-color); }
+    }
+}
+.btn-light {
+    --#{$prefix}btn-color: var(--#{$prefix}body-color);
+    --#{$prefix}btn-border-color: var(--#{$prefix}border-color);
+    --#{$prefix}btn-border-radius: calc(var(--#{$prefix}border-radius-pill) * 2);
+    --#{$prefix}btn-bg: #fff;
+    --#{$prefix}btn-hover-color: #fff;
+    --#{$prefix}btn-hover-bg: var(--#{$prefix}primary);
+}
+.btn-dark {
+    --#{$prefix}btn-color: #fff;
+    --#{$prefix}btn-border-color: var(--#{$prefix}body-color);
+    --#{$prefix}btn-border-radius: calc(var(--#{$prefix}border-radius-pill) * 2);
+    --#{$prefix}btn-bg: var(--#{$prefix}body-color);
+    --#{$prefix}btn-hover-color: var(--#{$prefix}body-color);
+    --#{$prefix}btn-hover-bg: transparent;
+    --#{$prefix}btn-hover-border-color: var(--#{$prefix}body-color);
+}
+.btn-link {
+    --#{$prefix}btn-padding-x: 0;
+    --#{$prefix}btn-padding-y: 0;
+    --#{$prefix}btn-color: var(--#{$prefix}body-color);
+    --#{$prefix}btn-bg: transparent;
+    --#{$prefix}btn-hover-bg: transparent;
+    --#{$prefix}btn-border-color: transparent;
+    --#{$prefix}btn-border-radius: 0;
+    --#{$prefix}btn-hover-color: var(--#{$prefix}primary);
+}
+
+.btn-outline-primary {
+    --#{$prefix}btn-bg: transparent;
+    --#{$prefix}btn-color: var(--#{$prefix}primary);
+    --#{$prefix}btn-border-color: var(--#{$prefix}primary);
+}
+.btn-outline-secondary {
+    --#{$prefix}btn-bg: transparent;
+    --#{$prefix}btn-color: var(--#{$prefix}body-color);
+    --#{$prefix}btn-border-color: var(--#{$prefix}border-color);
+}
